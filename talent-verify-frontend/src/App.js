@@ -15,17 +15,6 @@ const App = () => {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/add-employee">Add Employee</a></li>
-            <li><a href="/bulk-upload">Bulk Upload</a></li>
-            <li><a href="/company-list">Company List</a></li>
-            <li><a href="/employee-form">Employee Form</a></li>
-            <li><a href="/employee-list">Employee List</a></li>
-          </ul>
-        </nav>
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/add-employee" element={<AddEmployee />} />
