@@ -1,0 +1,46 @@
+[
+    {
+        "model": "employees.company",
+        "pk": 1,
+        "fields": {
+            "name": "Tech Innovators",
+            "address": "123 Tech Street, Innovation City",
+            "email": "contact@techinnovators.com",
+            "phone_number": "1234567890"
+        }
+    },
+    {
+        "model": "employees.company",
+        "pk": 2,
+        "fields": {
+            "name": "Creative Solutions",
+            "address": "456 Creative Ave, Design Town",
+            "email": "info@creativesolutions.com",
+            "phone_number": "0987654321"
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 1,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Doe",
+            "email": "john.doe@techinnovators.com",
+            "phone_number": "1234567890",
+            "position": "Developer",
+            "company": 1
+        }
+    },
+    {
+        "model": "employees.employee",
+        "pk": 2,
+        "fields": {
+            "first_name": "Jane",
+            "last_name": "Smith",
+            "email": "jane.smith@creativesolutions.com",
+            "phone_number": "0987654321",
+            "position": "Manager",
+            "company": 2
+        }
+    }
+]
